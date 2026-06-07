@@ -1,0 +1,5 @@
+Instrukcje
+Na przykładzie wizualizacji działania perceptronu wielowarstwowego w zadaniach klasyfikacji zaproponuj wizualizacje działania tej sieci w zagadnieniach regresji.
+Zmodyfikuj przykład z regresją tak by możliwe było zastosowanie tej sieci do regresji na przykładzie innego problemu (plik MPG). 
+Zilustruj i wyjaśnij wpływ kroków uczenia, wartości współczynnika uczenia oraz etapu normalizacji danych na jakość działania sieci neuronowej.
+Zaproponuj modyfikację zagadnienia regresyjnego dzieląc dane na zbiór uczący i testowy. Porównaj wyniku błędów dopasowania dla obu zbiorów. Omów wyniki.
