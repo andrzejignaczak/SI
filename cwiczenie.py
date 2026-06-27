@@ -38,9 +38,9 @@ plt.title('Granica decyzyjna Perceptronu')
 
 for i in range(len(X)): #rysowanie punktów danych
     if T[i] == 0:
-        plt.scatter(X[i][0], X[i][1], color='red', marker='o', s=1000, label='(0)' if i == 0 else "")
+        plt.scatter(X[i][0], X[i][1], color='red', marker='o', s=100, label='(0)' if i == 0 else "")
     else:
-        plt.scatter(X[i][0], X[i][1], color='blue', marker='x', s=1000, label='(1)' if i == 3 else "")
+        plt.scatter(X[i][0], X[i][1], color='blue', marker='x', s=100, label='(1)' if i == 3 else "")
 x_values = np.array([-0.5, 1.5]) 
 y_values = -(Perceptron.W[0][0] * x_values + Perceptron.b[0][0]) / Perceptron.W[1][0]
 plt.plot(x_values, y_values, color='green', linewidth=2, label='Granica decyzji (Plot)')
